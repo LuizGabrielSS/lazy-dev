@@ -1,0 +1,13 @@
+email:
+  server: 993
+  imap_server: imap.gmail.com
+  imap_url: 'imap.gmail.com'
+classifications:
+  - "spam"
+  - "ham"
+  - "security"
+  - "promotion"
+  - "social"
+  - "update"
+  - "forum"
+  - "others"
