@@ -1,5 +1,3 @@
-from huggingface_hub import login
-
 from components.logger import logger
 from components.timer_decorator import timer
 from components.get_secret import get_secret
