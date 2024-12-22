@@ -11,6 +11,6 @@ def main():
 
     result = report_email()
 
-    print(result)
+    logger.info(result)
 
 main()
