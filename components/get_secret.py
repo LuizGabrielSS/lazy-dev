@@ -21,7 +21,7 @@ def get_secret(secret_key: str) -> Union[str, bool]:
 
     try:
 
-        with open(f'private/{secret_key}') as f:
+        with open(f'private/{secret_key}', encoding='utf-8') as f:
 
             logger.debug(f"{secret_key} encontrada com sucesso")
         
