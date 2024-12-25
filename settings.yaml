@@ -11,3 +11,5 @@ classifications:
   - "update"
   - "forum"
   - "others"
+github_templates:
+  api: https://github.com/LuizGabrielSS/template-api.git
