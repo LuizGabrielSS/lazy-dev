@@ -14,14 +14,12 @@ def create_project():
 
     output_dir = get_secret('output_dir')
 
-    print(output_dir)
-
     cookiecutter(
         template=configs['github_templates']['api'],
         output_dir=output_dir,
         no_input=True,
         extra_context={
-            'project_name': 'test_via_python',
+            'project_name': 'lazy_dev_api',
         }
     )
 
